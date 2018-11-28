@@ -1,0 +1,20 @@
+[
+    {
+      "id": "strawberry-pudding",
+      "name": "Strawberry Pudding",
+      "img": "strawberry-pudding.jpg",
+      "rating": 5
+    },
+    {
+      "id": "chicken-pomegranate-salad",
+      "name": "Chicken Pomegranate Salad",
+      "img": "chicken-pomegranate-salad.jpg",
+      "rating": 4.1
+    },
+    {
+      "id": "ham-goat-cheese-croissant",
+      "name": "Ham Goat Cheese Croissant",
+      "img": "ham-goat-cheese-croissant.jpg",
+      "rating": 3.9
+    }
+]
