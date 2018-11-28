@@ -20,6 +20,14 @@
                 <button ng-click="menu.decrement(item)">-</button>
 
             </p>
+            <div class="well">
+                <select name="" ng-model="item.meal">
+                    <option value="breakfast">Breakfast</option>
+                    <option value="lunch">Lunch</option>
+                    <option value="dinner">Dinner</option>                    
+                </select>
+                <button ng-click="menu.chooseItem(item.meal, item.name)">Select item</button>
+            </div>
         </div>
     </div>
 </div>

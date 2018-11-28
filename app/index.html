@@ -49,6 +49,7 @@
   </div>
 
   <div class="container">
+    <div ng-include="'views/order.html'" ng-controller="OrderCtrl as order"></div>
     <div ng-include="'views/menu.html'" ng-controller="MenuCtrl as menu"></div>
   </div>
 
@@ -71,6 +72,8 @@
   <script src="scripts/app.js"></script>
   <script src="scripts/controllers/menu.js"></script>
   <script src="scripts/services/foodfinder.js"></script>
+  <script src="scripts/services/ordermanager.js"></script>
+  <script src="scripts/controllers/order.js"></script>
   <!-- endbuild -->
 </body>
 
